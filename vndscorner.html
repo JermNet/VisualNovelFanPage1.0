@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Novel Oddities</title>
+    <!-- The styles.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link rel="stylesheet" href="styles.css" type="text/css" media="all">
+    <link rel="icon" type="image/x-icon" href="images/clannadcorner.png">
+ <style>
+        
+     a:link {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+        body{
+            background: url(images/vndscornerbg.png);
+        }
+    </style>
+  </head>
+    <body>
+    <header>
+        <a href="https://visualnovelarchivist.neocities.org">
+            <img src="images/vnoheader.png" style="display: block; margin-left: auto; margin-right: auto">
+        </a>
+    </header>
+    <section>
+        <nav id="left-col">
+            <div class="img1"> <a href="clannadcorner.html"><img src="images/clannadcorner.png" alt="Clannad Corner"></a></div>
+            <p class="u1">Clannad Corner</p>
+            
+            <div class="img2"><img src="images/vndscorner.png" alt="vnds Corner"></div>
+            <p class="u2" style="left: 1352px;">You are here!</p>
+            
+            <div class="img3"><a href="mandmcorner.html"><img src="images/mandmcorner.png" alt="M and M Corner"></a></div>
+            <p class="u3">M 'n M Corner</p>
+            
+            <div class="img4"><a href="fancorner.html"><img src="images/fancorner.png" alt="Fan Corner"></a></div>
+            <p class="u4">Fan Corner</p>
+        
+            <div class="img5"><a href="classicscorner.html"><img src="images/classicscorner.png" alt="Classics Corner"></a></div>
+            <p class="u5">Classics Corner</p>
+            
+            <div class="img6"><a href="mangacorner.html"><img src="images/mangacorner.png" alt="Manga Corner"></a></div>
+            <p class="u6">Manga Corner</p>
+            
+            <div class="img7"><a href="musiccorner.html"><img src="images/musiccorner.png" alt="Music Corner"></a></div>
+            <p class="u7">Music Corner</p>
+            
+            <div class="img8"><a href="oddcorner.html"><img src="images/oddcorner.png" alt="Odd Corner"></a></div>
+            <p class="u8">Odd Corner</p>
+        </nav>
+            <main>
+                <article>
+                    <img src="images/vndscornerwelcome.png" alt="Welcome to the vnds Corner" style="position: absolute; left: 220px;">
+                    
+                    <h1 style="font-family: MS PGothic, Times, serif; color: white; top: 520px; left: 720px; position: absolute;">Table of Contents</h1>
+                    
+                    <ul style="font-family: MS PGothic, Times, serif; color: white; top: 560px; left: 700px; position: absolute;">
+                        <li><a href="#about">About vnds</a></li>
+                        <li><a href="#novels">VNs playable using vnds</a></li>
+                        <li><a href="#opinions">Opinions on vnds</a></li>
+                        <li><a href="#others">Other portable VNs</a></li>
+                        <li><a href="#ds">DS tutorial</a></li>
+                        <li><a href="#android">Android tutorial</a></li>
+                        <li><a href="#make">How to make/port for vnds</a></li>
+                    </ul>
+                    
+                    <img src="images/vndsimg.png" alt="vnds image" style="position: absolute; top: 800px; left: 480px;">
+                    <h1 id="about" style="font-family: MS PGothic Regular, Times, serif; color: white; top: 1200px; left: 720px; position: absolute;">About vnds</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; position: absolute; left: 300px; top: 1230px;">
+                    "So, what is vnds?" Some of you may be asking. Well vnds is a homebrew  program for the Nintendo DS and Android created by Jake Probst in<br>
+                    2008. Its purpose is to play all of your favorite visual novels on the go, with ports of popular (and not so popular) VNs being made for it<br>
+                    over the years. The Nintendo DS version looks like this:</p>
+                    <img src="images/vndsscreenshot.png" alt="vnds screenshot" style="position: absolute; top: 1320px;left: 640px;">
+                    <p style="font-family: MS PGothic Regular, Times, serif; position: absolute; color: white; left: 300px; top: 1720px;">
+                    vnds on Nintendo DS uses the full top screen (256px x 192px) to display backgrounds and character sprites and then using the bottom screen<br>
+                    for text along with menu buttons. Even with the small screen size everything looks quite nice and the use of the bottom screen instead of<br>
+                    text boxes is smart. That might seem like the obvious choice but the Ace Attorney series was able to do readable text on top of graphics. So<br>
+                    the top screen vs. bottom screen could have gone either way. Putting that aside, here's what the android version looks like:
+                    </p>
+                    <img src="images/vndsscreenshotlandscape.png" alt="android landscape" style="position: absolute; top: 2050px; left: 250px;">
+                    <img src="images/vndsscreenshotportrait.png" alt="android portrait" style="position: absolute; top: 1900px; left: 900px">
+                    <p style="font-family: MS PGothic Regular, Times, serif; position: absolute; color: white; top: 2550px; left: 300px;">
+                    The android version of vnds can run all VNs made for the DS but also supports images of 640px x 480px because of the larger screen size.<br>
+                    Android also has more options that the DS does not, but I won't go into details about that, it'd get pretty dry. Now, you may think that's<br>
+                    it for versions of vnds, but you'd be wrong (kind of)! There's two unofficial vnds projects, first VNDS-LOVE. Funnily enough, I can't find<br>
+                    any images of VNDS-LOVE running on 3ds. VNDS-LOVE on 3ds uses a weird image format and isn't really in the best playable state so that's<br>
+                    likely why. Here's a link to the <a href="https://www.gamebrew.org/wiki/VNDS-LOVE_3DS">GameBrew</a> page for a bit more information. And here's a link to the only <a href="https://www.reddit.com/r/3dshacks/comments/kmtmi0/wip_running_vnds_fatestay_night_on_a_2ds/">Reddit post</a> which seems to be the only<br>
+                    thing I could find of a VN running on the 3ds version on VNDS-LOVE. Love also has Windows, Mac, Linux and Nintendo Switch versions but<br>
+                    those can be hard to set up and aren't all too interesting. Worry not however, there's <em>another</em> 3ds vnds project! Here's a look at the discontinued<br>
+                    VN3DS project: 
+                    </p>
+                    <img src="images/vn3dsscreenshot.png" alt="vn3ds screenshot" style="position: absolute; top: 2750px; left: 600px;">
+                    <p style="font-family: MS PGothic Regular, Times, serif; position: absolute; color: white; top: 3250px; left: 300px;">
+                    Yeah, this is pretty much vnds on the 3ds but a bit worse because it lacks sound, sound effects and the ability to change fade times. This is<br>
+                    pretty interesting but the original vnds is still the better option. And as said earlier, this project has been discontinued, so there's no plans<br>
+                    for any of the missing features. That's about all for the "About vnds" section!
+                    </p>
+                    
+                    <h1 id="novels" style="font-family: MS PGothic Regular, Times, serif; color: white; top: 3350px; left: 700px; position: absolute;">VNs playable using vnds</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; position: absolute; color: white; top: 3400px; left: 300px;">
+                    There's quite a number of VNs playable using vnds so here's a few lists containing all the of the visual novels I'm aware of for the program:<br>
+                    (Please keep in mind that some of these visual novels have both sexual and violent themes)
+                    </p>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 3470px; left: 350px; position: absolute;">Standard vnds English</h1>
+                    <ul style="font-family: MS PGothic Regular, Times, serif; color: white; top: 3500px; left: 350px; position: absolute;">
+                        <li>(AA) WalkthroughVNDS</li>
+                        <li>Adagio</li>
+                        <li>Addendum</li>
+                        <li>Anon's Nice Day</li>
+                        <li>Ballad of an Evening Butterfly</li>
+                        <li>Clannad (unfinished)</li>
+                        <li>Cross Channel</li>
+                        <li>Ever 17</li>
+                        <li>Fate Stay Night</li>
+                        <li>G-Senjou no Maou (unfinished)</li>
+                        <li>Higurashi no Naku Koro ni</li>
+                        <li>Higurashi no Naku Koro ni Kai</li>
+                        <li>Hurricane R4 (unfinished)</li>
+                        <li>Kanon</li>
+                        <li>Kikokugai - The Cyber Slayer</li>
+                        <li>Kira - SnowDrop</li>
+                        <li>Kira Kira</li>
+                        <li>Lonely Yuri (unfinished)</li>
+                        <li>Narcissu 2 - R3</li>
+                        <li>Never 7</li>
+                        <li>Niji no Kanata ni</li>
+                        <li>OMGWTFOTL</li>
+                        <li>Plain Song</li>
+                        <li>Planetarian ~The Reverie of a Little Planet~</li>
+                        <li>Red Shift</li>
+                        <li>Runaway City (unfinished)</li>
+                        <li>Saya's song</li>
+                        <li>Sekien no Inganock</li>
+                        <li>Shikkoku no Sharnoth</li>
+                        <li>Sono Hanabira ni Kuchizuke wo 1-9</li>
+                        <li>The Best Eroge Ever</li>
+                        <li>The Letter</li>
+                        <li>The World to Reverse -hallucinate-</li>
+                        <li>True Remembrance</li>
+                        <li>Tsukihime</li>
+                        <li>Tsukihime Plus+Disc</li>
+                        <li>Tsukihime - Kagetsu Tohya</li>
+                        <li>Umineko no Naku Koro ni</li>
+                        <li>Umineko no Naku Koro ni Chiru</li>
+                        <li>Wanko to Kurasou</li>
+                        <li>Yume Miru Kusuri</li>
+                        <li>Yume Wo Mita</li>
+                    </ul>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 3470px; left: 700px; position: absolute;">Standard vnds Russian</h1>
+                    <ul style="font-family: MS PGothic Regular, Times, serif; color: white; top: 3500px; left: 700px; position: absolute;">
+                        <li>Cross Channel</li>
+                        <li>Ever 17</li>
+                        <li>Saya no Uta</li>
+                        <li>Umineko no Naku Koro ni</li>
+                        <li>Umineko no Naku Koro ni Chiru</li>
+                    </ul>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 3600px; left: 700px; position: absolute;">High Res Russian</h1>
+                    <ul style="font-family: MS PGothic Regular, Times, serif; color: white; top: 3630px; left: 700px; position: absolute;">
+                        <li>Air Pressure</li>
+                        <li>Essence Hunt</li>
+                        <li>Ever 17</li>
+                        <li>Hikari no Valusia</li>
+                        <li>Katawa Shoujo</li>
+                        <li>Phenomeno</li>
+                        <li>Umineko no Naku Koro ni</li>
+                        <li>Who is Mike</li>
+                        <li>Yume Miru Kusuri</li>
+                        <li>Шепотки</li>
+                    </ul>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 3810px; left: 700px; position: absolute;">High Res Vietnamese</h1>
+                    <ul style="font-family: MS PGothic Regular, Times, serif; color: white; top: 3840px; left: 700px; position: absolute;">
+                        <li>Narcissu 2</li>
+                        <li>Saya no Uta</li>
+                    </ul>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 3470px; left: 1050px; position: absolute;">High Res English</h1>
+                    <ul style="font-family: MS PGothic Regular, Times, serif; color: white; top: 3500px; left: 1050px; position: absolute;">
+                        <li>(AA) WalkthroughVNDS</li>
+                        <li>Adagio</li>
+                        <li>Anon's Nice Day</li>
+                        <li>Ballad of an Evening Butterfly</li>
+                        <li>Cross Channel</li>
+                        <li>ef_first</li>
+                        <li>Ever 17</li>
+                        <li>Fate Stay Night</li>
+                        <li>G-Senjou no Maou (unfinished)</li>
+                        <li>Higurashi no Naku Koro ni</li>
+                        <li>Higurashi no Naku Koro ni Kai</li>
+                        <li>Kanon</li>
+                        <li>Kira -SnowDrop-</li>
+                        <li>Kira Kira</li>
+                        <li>Lara's Escape (unfinished)</li>
+                        <li>Narcissu 2 - R3</li>
+                        <li>Never 7</li>
+                        <li>Niji no Kanata ni</li>
+                        <li>Red Shift</li>
+                        <li>Saya's song</li>
+                        <li>Sekien no Inganock</li>
+                        <li>Shikkoku no Sharnoth</li>
+                        <li>Sono Hanabira ni Kuchiduke wo 1-9</li>
+                        <li>True Remembrance</li>
+                        <li>Tsukihime</li>
+                        <li>Tsukihime Plus+Disc</li>
+                        <li>Tsukihime - Kagetsu Tohya</li>
+                        <li>Umineko no Naku Koro ni</li>
+                        <li>Umineko no Naku Koro ni Chiru</li>
+                        <li>VNDS-TEST</li>
+                        <li>Wanko to Kurasou</li>
+                        <li>Yume Miru Kusuri</li>
+                    </ul>
+                    <p style="font-family: MS PGothic Regular, Times, serif; position: absolute; color: white; left: 300px; top: 4200px;">
+                    So if you're interested in playing any of those VNs on your DS or Android than you can get the DS version of it <a href="https://web.archive.org/web/20140218222855/digital-haze.net/projects/vnds.html">here</a>, the Android version <a href="https://play.google.com/store/apps/details?id=moskvil.johannes.visualnovelinterpreter">here</a><br>
+                    and the actual VNs <a href="https://mega.nz/folder/sl4ygIpK#sVHBXVCumZUn_wge8Kqx0A">here</a>! Please make sure you have a legal copy of the original VNs you download!!!
+                    </p>
+            
+                    <h1 id="opinions" style="font-family: MS PGothic Regular, Times, serif; color: white; top: 4250px; left: 700px; position: absolute;">Opinions on vnds</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 4300px; left: 300px; position: absolute;">
+                    So what are my personal thoughts on vnds? As someone who loves VNs and obscure software that nobody cares about, vnds was love at first sight!<br>
+                    I have fond memories of just trying to search for any little bit of information I could about the program. So for me personally it's great!<br>
+                    Even in the current landscape of portable consoles, vnds can be pretty handy. It's not going to beat a laptop but some of these VNs aren't on<br>
+                    Switch and Steam Decks are still being shipped, making this little piece of homebrew from 2008 still viable. Overall, I think it's really neat!<br>
+                    Try using it sometime if you plan on going on a trip and need more visual novels in your life! You can always check out the tutorials if you need<br>
+                    to know how to do as such!
+                    </p>
+                    
+                    <h1 id="others" style="font-family: MS PGothic Regular, Times, serif; color: white; top: 4410px; left: 700px; position: absolute;">Other Portable VNs</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 4460px; left: 300px; position: absolute;">
+                    Now I would like to talk about some other portable VNs on GBA, DS and 3ds! Since this corner of the website is dedicated to vnds, I'll keep it brief<br>
+                    and only talk about one per console. First, is Chobits for Game Boy Advance!
+                    </p>
+                    <img src="images/chobitsboxart.png" alt="chobits box art" style="position: absolute; top: 4550px; left: 475px">
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; position: absolute; top: 4975px; left: 300px">
+                    I have both too much and not enough to say about this visual novel! Quick background, Chobits was a manga series that was published from 2000 to 2002<br>
+                    by some group of people I will mention later as a surprise for those who don't already know (though, I just realized you can tell if you look closely!).<br>
+                    It's about a guy who finds a robot girl named Chii and early 2000s slice of life ensues. It was adapted into an anime in 2002 which this VN is based off.<br>
+                    The visual novel is Japanese only so I can't tell you how closely it follows the anime, but I think it looks really nice. Here's a screenshot:
+                    </p>
+                    <img src="images/chobitsscreenshot.png" alt="chobits screenshot" style="position: absolute; top: 5100px; left: 665px">
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; position: absolute; top: 5300px; left: 300px">
+                    If you've seen anything about the anime, you'd know that the VN looks pretty dang close to the real thing! There's even full voice acting for the one<br>
+                    word Chii says! It's really short, only being about four hours according to vndb so if you're a fan of Chobits and know Japanese you should play it! And<br>
+                    if you play it tell me what you think, I'll leave my email at the end of this page! So, do you know who made Chobits and the music for it? CLAMP. They<br>
+                    made the "Kakyoin did you lay this egg?" manga. That's just something really weird that didn't know until doing research on the game. If you don't know<br>
+                    about CLAMP or the "egg" manga and want to know more there's a fantastic video about it made by YouTuber <a href="https://www.youtube.com/c/RedBardIsCool/videos">Red Bard</a>! But that's about all I have<br>
+                    to say about Chobits GBA! On to the Higurashi series for DS!
+                    </p>
+                    <img src="images/higuds.png" alt="higurashi screenshot" style="position: absolute; top: 5450px; left: 600px">
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; position: absolute; top: 5725px; left: 300px">
+                    The Higurashi series on Nintendo DS is separate from Higurashi on vnds, with the explanation for why that is because they're different games (kind of)!<br>
+                    vnds Higurashi is ports of the question and answer arcs from PC, the question arcs being four arcs and same with the answers, totaling eight. The official<br>
+                    DS Higurashi series by Alchemist is a weird mix of already existing arcs, alternate versions of arcs, adaptations of manga arcs and completely new arcs.<br>
+                    It's odd, confusing and interesting all in one, and I'd love to see a translation of the original and alternate arcs. I just wanted to share because I don't<br>
+                    hear about Higu DS at all (likely due to the language barrier) and also because of Higurashi being a part of vnds. It gets a bit gorey at times but if you're<br>
+                    fine with that then I think you should give the series a try (DS or otherwise haha). I'm on the third arc as of writing ^-^. But I'm getting off-topic, onto<br>
+                    the final portable VN here today, DDLC-LOVE!
+                    </p>
+                    <img src="images/ddlclovepic.png" alt="ddlc-love picture" style="position: absolute; top: 5900px; left: 590px">
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; position: absolute; top: 6425px; left: 300px;">
+                    DDLC-LOVE is a port of Doki Doki Literature Club for Nintendo Switch, 3ds, PS Vita, PSP and PS3, yeah, that's a lot. As you might have guessed, DDLC-LOVE<br>
+                    was created before the eventual official console ports. Due to this, DDLC-LOVE is no longer being updated which is a shame, the official port is only on one of<br>
+                    those consoles after all. If you're wondering how all the fourth-wall breaky stuff works, I can only answer that question partially. Deleting the character<br>
+                    files is a part of the options menu in game, but I don't know about the other stuff on account of the game repeatedly crashing. This is on the 3ds version and<br>
+                    apparently the only problem with the Switch version is some sound issues. Since this homebrew port is already on Switch, the only other version that I would<br>
+                    recommend you try out is the Vita version (which is also recommended by the creator) if this interests you. That's it for "Other Portable VNs" and if you<br>
+                    want to try DDLC-LOVE <a href="https://github.com/LukeZGD/DDLC-LOVE">here</a> you go!
+                    </p>
+                    
+                    <h1 id="ds" style="font-family: MS PGothic Regular, Times, serif; color: white; top: 6575px; left: 700px; position: absolute;">Nintendo DS Tutorial</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; position: absolute; top: 6625px; left: 300px;">
+                    This here is a tutorial for how to get vnds working for DS, there's also an <a href="#android">Android</a> tutorial later on this page. I won't be doing tutorials for any other consoles as<br>
+                    I either don't have access to the consoles in question or they use VNDS-LOVE which is, decent at best. Okay, first will be what you'll need followed by<br>
+                    the step-by-step guide.
+                    </p>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 6700px; left: 720px; position: absolute;">What You'll Need</h1>
+                    <ul style="font-family: MS PGothic Regular, Times, serif; color: white; top: 6750px; left: 625px; position: absolute;">
+                        <li>A console from the DS/3ds family of systems</li>
+                        <li>A DS flashcard</li>
+                        <li>A Micro SD card (typically comes with flashcards)</li>
+                        <li>A computer with an internet connection</li>
+                        <li>A Micro SD card adapter (if using a computer without a Micro SD slot)</li>
+                    </ul>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 6850px; left: 760px; position: absolute;">Step 1</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 6900px; left: 300px; position: absolute;">
+                    Step 1 is simple, all you must do is download any version of vnds from the <a href="https://web.archive.org/web/20140218222855/digital-haze.net/projects/vnds.html">Digital Haze</a> website onto your device.
+                    </p>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 6950px; left: 760px; position: absolute;">Step 2</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7000px; left: 300px; position: absolute;">
+                    Take your Micro SD card and insert it into your computer, make sure it is formatted as FAT32. If it's not, right-click the card and select format in the<br>
+                    drop down menu, FAT32 should be one of the default options.
+                    </p>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7050px; left: 760px; position: absolute;">Step 3</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7100px; left: 300px; position: absolute;">
+                    Unzip the downloaded file and copy the "vnds" folder onto the root of your SD card, do not put "vnds" into any other folders on your SD card.<br>
+                    </p>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7150px; left: 760px; position: absolute;">Step 4</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7200px; left: 300px; position: absolute;">
+                    Download the VNs you'd like to play from <a href="https://mega.nz/folder/sl4ygIpK#sVHBXVCumZUn_wge8Kqx0A">here</a> (only get freeware VNs and ones that you have legal copies of!). Make sure that when you unzip one of these<br>
+                    files you put all the contents into a new folder. If the downloaded VN has things like "sound.zip" or "background.zip" etc. you don't have to unzip those.
+                    </p>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7275px; left: 760px; position: absolute;">Step 5</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7325px; left: 300px; position: absolute;">
+                    Copy all of the folders of the visual novels you want to play into the "novels" folder which is inside the "vnds" folder.
+                    </p>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7375px; left: 760px; position: absolute;">Step 6</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7425px; left: 300px; position: absolute;">
+                    Put the micro SD card into your flashcard, once you put it into your console select vnds through your flashcard's menu and get to playing some VNs!
+                    </p>
+                    
+                    <h1 id="android" style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7475px; left: 730px; position: absolute;">Android Tutorial</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7525px; left: 300px; position: absolute;">
+                    This is the tutorial for how to get vnds running on your android phone, there is also a <a href="#ds">DS</a> tutorial earlier up on this page. I also won't be doing tutorials for any<br>
+                    other platforms for reasons I already mentioned in the DS tutorial. Anyway, here is a list of what you'll need followed by the step-by-step guide.
+                    </p>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7600px; left: 730px; position: absolute;">What You'll Need</h1>
+                    <ul style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7650px; left: 700px; position: absolute">
+                        <li>An Android phone</li>
+                        <li>An internet connection</li>
+                        <li>The WinRAR app</li>
+                    </ul>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7750px; left: 760px; position: absolute;">Step 1</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7800px; left: 300px; position: absolute;">
+                    If you have not already, download the WinRAR app from the App Store/Play Store. vnds and the VNs are in the .zip format when downloaded, so that's why<br>
+                    this is needed.
+                    </p>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7850px; left: 760px; position: absolute;">Step 2</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7900px; left: 300px; position: absolute;">
+                    Download the Visual Novel Interpreter APK from <a href="https://apkcombo.com/vnds-interpreter/nl.weeaboo.android.vnds/">this</a> link and install it.
+                    </p>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 7950px; left: 760px; position: absolute;">Step 3</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 8000px; left: 300px; position: absolute;">
+                    Download the novels you want and have legal copies of from the <a href="https://mega.nz/folder/sl4ygIpK#sVHBXVCumZUn_wge8Kqx0A">MEGA</a> link.
+                    </p>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 8050px; left: 760px; position: absolute;">Step 4</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 8100px; left: 300px; position: absolute;">
+                    Create a folder named "novels" on your phone, the vnds interpreter should automatically detect it. In the novels folder create a folder for each<br>
+                    one of your VNs.
+                    </p>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 8150px; left: 760px; position: absolute;">Step 5</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 8200px; left: 300px; position: absolute;">
+                    Using the WinRAR app (or any other app that can unzip .7zip files now that I think of it.) unpack each VN into their folders.
+                    </p>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 8250px; left: 760px; position: absolute;">Step 6</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 8300px; left: 300px; position: absolute;">
+                    Enjoy your VNs! That's all there is to it. As said earlier the interpreter should auto-detect the novels folder, and if not there is a manual<br>
+                    way to pick a file path. So that's it for the tutorials but if you want to make a VN or port one to vnds, keep reading!
+                    </p>
+                    
+                    <h1 id="make" style="font-family: MS PGothic Regular, Times, serif; color: white; top: 8400px; left: 690px; position: absolute;">How to Make/Port For vnds</h1>
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 8450px; left: 300px; position: absolute;">
+                    Making games for vnds is fairly simple and easy to understand, even more so if you have even a little bit of basic programming knowledge! Porting<br>
+                    probably couldn't even be considered porting, it's mostly just copying the text and resizing assets. Annoying if the script isn't online and the<br>
+                    VN has a lot of branching paths though. I'm going to keep things simple, first starting with how your average vnds VN's file paths and formats<br> 
+                    should look and what each file and folder means.
+                    </p>
+                    <img src="images/vndsfiles.png" alt="vnds files" style="position: absolute; top: 8550px; left: 650px;">
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 8800px; left: 300px; position: absolute;">
+                    Going from top to bottom, first is the background folder. It contains all of the background images for a VN, very simple! Important things to<br>
+                    note are that backgrounds should be in the JPG format and should be 256px x 192px in size to fit the DS screen. If you only care about your VN<br>
+                    working on Android then backgrounds can be 640px x 480px instead. The foreground folder is very similar, just housing character sprites instead!<br>
+                    There are two differences however, foregrounds should be in the PNG format, and they can be any size smaller than the backgrounds (either less<br>
+                    than 256 x 192 or 640 x 480 depending on platform.). Next is the script folder which is a little weird. I'll go through all the syntax and<br>
+                    stuff after this so just stick with me. The script file format is .scr, a screensaver file, and I'm not quite sure how to create those so your<br>
+                    best bet is to download a vnds VN, copy one of the .scr files and then edit it. Which brings us to how screensavers need to be edited to house<br>
+                    text. You need to download an external program, personally I use Notepad++ but I'm sure there are others out there. Skin is an optional one so<br>
+                    I'll mostly gloss over it, but it's basically there just to change the appearance of vnds if you'd like. Next is sound, which is for sound effects<br>
+                    and music. Music is simple, with the only requirement being that files be mp3 files. Sound, is quite frankly, really a pain, but I'll try to make<br>
+                    it's simple. I'm probably making it out harder than it is, but I was trying to figure this out with outdated info so cut me some slack. First, watch<br>
+                    <a href="https://www.youtube.com/watch?v=r1AtmY-RMyQ">this</a> video, so you can install ffmpeg then, open command prompt and type this: "ffmpeg -i nameoffile.mp3 nameofconverted.aac".<br>
+                    With that sound effects should work. The "default.ttf" file is a text font if you didn't already know all you have to do is name a font of your<br>
+                    choosing "default" to use your own. You can also just not have one and vnds will automatically use the system font. Icon is the image that shows up<br>
+                    on the bottom screen next to the name of your VN, it must be a PNG and 32px x 32px. If you do not have an "icon.png" than it will default to a black<br>
+                    box. "info.txt" is another simple one, all it is one line of text formatted as follows "title=Title Goes Here" this title will be the one that will<br>
+                    appear in vnds, not the name of the folder. And last but not least is "thumbnail.png", it's basically the same as "icon.png" but for the top screen<br>
+                    and a size of 100px x 75px instead. So that's it for the file structure, now for how to actually create the script. Once again I'll be going one by<br>
+                    one, with a few more pictures for clarity.
+                    </p>
+                    <h1 style="font-family: MS PGothic Regular, Times, serif; color: white; top: 9150px; left: 765px; position: absolute;">Text</h1>
+                    <img src="images/textdemo.png" alt="text demo" style="position: absolute; top: 9200px; left: 300px;">
+                    <p style="font-family: MS PGothic Regular, Times, serif; color: white; top: 9500px; left: 300px; position: absolute;">
+                    Text is the most basic requirement when it comes to visual novels and as such, the 4 lines of text on screen are very simple. To write any text<br>
+                    at all on screen you have to type "text" followed by what you'd like to write. Text followed by a tilde (~) will create a blank line. Having a<br>
+                    "@" symbol before what you'd like to write will make it so that you don't have to press a button for that line to appear. And finally, text<br>
+                    followed by an exclamation mark will make a blank line that needs a button to be pressed to advance. Next is loading backgrounds and such.<br>
+                    </p>
+                </article>
+            </main>
+        <nav id="right-col">
+        
+        </nav>
+    </section>
+    
+    
+  </body>
+</html>

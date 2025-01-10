@@ -1,0 +1,259 @@
+body {
+      overflow-x: hidden;
+      background-size: auto;
+}    
+.p1{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    color:white;
+}
+.p2{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 720px;
+    left: 300px;
+    color: white;
+}
+.p3{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 990px;
+    left: 300px;
+    color: white;
+}
+.p4{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 1270px;
+    left: 300px;
+    color: white;
+}
+.p5{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 1550px;
+    left: 300px;
+    color: white;
+}
+.p6{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 1830px;
+    left: 300px;
+    color: white;
+}
+.p7{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 2110px;
+    left: 300px;
+    color: white;
+}
+.p8{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 2390px;
+    left: 300px;
+    color: white;
+}
+.p9{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 2670px;
+    left: 300px;
+    color: white;
+}
+.u1{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 585px;
+    left: 95px;
+    color:white;
+}
+.u2{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 585px;
+    left: 1355px;
+    color: white;
+}
+.u3{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 865px;
+    left: 98px;
+    color: white;
+}
+.u4{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 865px;
+    left: 1360px;
+    color: white;
+}
+.u5{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 1145px;
+    left: 95px;
+    color: white;
+}
+.u6{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 1145px;
+    left: 1350px;
+    color: white;
+}
+.u7{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 1425px;
+    left: 100px;
+    color: white;
+}
+.u8{
+    font-family: "MS PGothic Regular", "Times", 'serif';
+    position: absolute;
+    top: 1425px;
+    left: 1357px;
+    color: white;
+}
+.b1{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 665px;
+    left: 725px;
+    color: white;
+}
+.b2{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 945px;
+    left: 738px;
+    color: white;
+}
+.b3{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 1225px;
+    left: 727px;
+    color: white;
+}
+.b4{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 1505px;
+    left: 742px;
+    color: white;
+}
+.b5{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 1785px;
+    left: 723px;
+    color: white;
+}
+.b6{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 2065px;
+    left: 730px;
+    color: white;
+}
+.b7{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 2345px;
+    left: 730px;
+    color: white;
+}
+.b8{
+    font-family: "MS PGothic Regular", "Times", "serif";
+    position: absolute;
+    top: 2625px;
+    left: 743px;
+    color: white;
+}
+.img1{
+  position: absolute;
+  top: 520px;
+  left: 105px;
+}
+.img2{
+    position: absolute;
+    top: 520px;
+    left: 1355px;
+}
+.img3{
+    position: absolute;
+    top: 800px;
+    left: 105px;
+}
+.img4{
+    position: absolute;
+    top: 800px;
+    left: 1355px;
+}
+.img5{
+    position: absolute;
+    top: 1080px;
+    left: 105px;
+}
+.img6{
+    position: absolute;
+    top: 1080px;
+    left: 1355px;
+}
+.img7{
+    position: absolute;
+    top: 1360px;
+    left: 105px;
+}
+.img8{
+    position: absolute;
+    top: 1360px;
+    left: 1355px;
+}
+.bimg1{
+    position: absolute;
+    top: 520px;
+    left: 720px;
+}
+.bimg2{
+    position: absolute;
+    top: 800px;
+    left: 720px;
+}
+.bimg3{
+    position: absolute;
+    top: 1080px;
+    left: 720px;
+}
+.bimg4{
+    position: absolute;
+    top: 1360px;
+    left: 720px;
+}
+.bimg5{
+    position: absolute;
+    top: 1640px;
+    left: 720px;
+}
+.bimg6{
+    position: absolute;
+    top: 1920px;
+    left: 720px;
+}
+.bimg7{
+    position: absolute;
+    top: 2200px;
+    left: 720px;
+}
+.bimg8{
+    position: absolute;
+    top: 2480px;
+    left: 720px;
+}
